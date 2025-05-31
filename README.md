@@ -5,7 +5,9 @@
 ## 📦 Instalação Rápida
 
 ### Pré-requisitos
-- Mac com Docker Desktop instalado
+- Mac (Intel ou Apple Silicon)
+- Docker Desktop instalado e rodando ([Download aqui](https://www.docker.com/products/docker-desktop/))
+- Pode executar em qualquer pasta do terminal
 
 ### Método 1: Download Direto
 ```bash

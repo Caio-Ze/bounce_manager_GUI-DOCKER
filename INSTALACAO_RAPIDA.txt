@@ -18,15 +18,26 @@ curl -O https://raw.githubusercontent.com/Caio-Ze/bounce_manager_GUI-DOCKER/mast
 
 📋 PRÉ-REQUISITOS:
 
-- Mac com Docker Desktop instalado e rodando
+✅ OBRIGATÓRIO:
+- Mac (Intel ou Apple Silicon)
+- Docker Desktop INSTALADO e RODANDO
 - Terminal aberto
+
+📁 PASTA:
+- Pode executar em QUALQUER pasta
+- Não precisa criar pasta específica
+- Configurações ficam em ~/.bounce-manager
 
 ═══════════════════════════════════════════════════════════════
 
 🆘 EM CASO DE PROBLEMAS:
 
-1. Verifique se o Docker Desktop está rodando
-2. Abra o terminal e cole o comando acima
-3. Para suporte: https://github.com/Caio-Ze/bounce_manager_GUI-DOCKER
+1. ❌ "Docker não está rodando" → Abra o Docker Desktop
+2. ❌ "Permission denied" → Execute: chmod +x run-from-dockerhub.sh
+3. ❌ "Command not found" → Instale o Docker Desktop
+4. 📧 Para suporte: https://github.com/Caio-Ze/bounce_manager_GUI-DOCKER
+
+🔗 DOWNLOAD DOCKER DESKTOP:
+https://www.docker.com/products/docker-desktop/
 
 ═══════════════════════════════════════════════════════════════
