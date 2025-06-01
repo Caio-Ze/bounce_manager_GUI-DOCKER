@@ -39,14 +39,16 @@ fi
 
 echo -e "${BLUE}🚀 Baixando e executando Dynamic Bounce Manager...${NC}"
 echo -e "${CYAN}📂 Configurações serão salvas em: $CONFIG_DIR${NC}"
+echo -e "${YELLOW}💡 Dica: Use caminhos completos ao adicionar pastas (ex: /Users/seuusuario/Documents)${NC}"
 echo ""
 
-# Executar o container
+# Executar o container com montagem correta para macOS
 docker run -it --rm \
     --name bounce-manager \
-    -v /:/host \
+    -v "$HOME":/host/Users/$(whoami) \
     -v "$CONFIG_DIR":/app/config \
     -v "$CONFIG_DIR/logs":/app/logs \
+    -e TERM=xterm-256color \
     "$IMAGE_NAME"
 
 echo -e "${GREEN}👋 Dynamic Bounce Manager finalizado.${NC}" 
