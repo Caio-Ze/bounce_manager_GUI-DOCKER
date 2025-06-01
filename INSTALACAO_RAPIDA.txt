@@ -21,6 +21,7 @@ curl -O https://raw.githubusercontent.com/Caio-Ze/bounce_manager_GUI-DOCKER/mast
 ✅ OBRIGATÓRIO:
 - Mac (Intel ou Apple Silicon)
 - Docker Desktop INSTALADO e RODANDO
+  📥 Download: https://www.docker.com/products/docker-desktop/
 - Terminal aberto
 
 📁 PASTA:

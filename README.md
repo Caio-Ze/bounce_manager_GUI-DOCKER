@@ -6,8 +6,18 @@
 
 ### Pré-requisitos
 - Mac (Intel ou Apple Silicon)
-- Docker Desktop instalado e rodando ([Download aqui](https://www.docker.com/products/docker-desktop/))
+- **Docker Desktop instalado e rodando** → [Download oficial](https://www.docker.com/products/docker-desktop/)
 - Pode executar em qualquer pasta do terminal
+
+### 🐳 Instalação do Docker Desktop
+
+1. Acesse: https://www.docker.com/products/docker-desktop/
+2. Clique em **"Download for Mac"**
+   - **Apple Silicon** (M1/M2/M3): Download for Mac – Apple Silicon
+   - **Intel**: Download for Mac – Intel Chip
+3. Instale o arquivo `.dmg` baixado
+4. **Abra o Docker Desktop** e aguarde inicializar
+5. Verifique se está rodando (ícone da baleia na barra superior)
 
 ### Método 1: Download Direto
 ```bash
